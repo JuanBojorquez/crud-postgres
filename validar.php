@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
   $_SESSION["apellido1"] = $row["apellido1"];
   $_SESSION["apellido2"] = $row["apellido2"];
 
-  header("location: crud.php");
+  header("location: https://the-crud.herokuapp.com/crud.php");
 
 } else {
   echo "Se detecto un acceso ilegal al sistema, su ip esta siendo monitoreada y sera enviada a la policia";
