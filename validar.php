@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 $result = $conn->query($query);
-//print_r($result);
+print_r($result);
 if ($result->num_rows > 0) {
   
   // output data of each row
