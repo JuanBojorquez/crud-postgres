@@ -10,7 +10,7 @@ if (empty($_SESSION["nombre"]))
 {
   echo "Se detecto un acceso ilegal al sistema, su ip esta siendo monitoreada y sera enviada a la policia";
   ?>
-  <a href="https://the-crud.herokuapp.com/crud/">Sitio de login</a>
+  <a href="https://the-crud.herokuapp.com">Sitio de login</a>
   <?php
   exit();
 }
