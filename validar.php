@@ -1,6 +1,6 @@
 <?php
 include("./inc/settings.php");
-//print_r($_POST);
+print_r($_POST);
 $query="SELECT * FROM usuarios WHERE numero_de_empleado = '$_POST[username]' AND pass= md5('$_POST[pwd]')";
 // echo $query;
 
